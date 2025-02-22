@@ -69,14 +69,14 @@ git clone https://github.com/yourusername/recipe-manager.git
 
 Explore the various features and UI of the Recipe Manager app through the images below:
 
-| ![Image 1](loginScreen.jpeg) | ![Image 2](mainScreen.jpeg) | ![Image 3](searchScreen.jpeg) |
+| ![Image 1](assets/login.jpeg) | ![Image 2](assets/register.jpeg) | ![Image 3](assets/main_app.jpeg) |
 |-----------------------------|----------------------------|------------------------------|
 | **Login Screen** - User login page where users can sign in with their credentials. | **Main Screen** - Displays the list of recipe categories for browsing. | **Search Screen** - Search functionality that allows users to find recipes by name. |
 
-| ![Image 4](addRecipeScreen.jpeg) | ![Image 5](recipeDetailScreen.jpeg) | ![Image 6](favoritesScreen.jpeg) |
+| ![Image 4](assets/map_app_carousels.jpeg) | ![Image 5](assets/category_selection.jpeg) | ![Image 6](assets/search_by_text.jpeg) |
 |---------------------------------|----------------------------------|---------------------------------|
 | **Add Recipe Screen** - Allows users to add new recipes, including ingredients and instructions. | **Recipe Detail Screen** - View detailed recipe information such as ingredients and preparation steps. | **Favorites Screen** - Displays the list of recipes marked as favorites by the user. |
 
-| ![Image 7](categoryFilterScreen.jpeg) | ![Image 8](recipeItemScreen.jpeg) | ![Image 9](settingsScreen.jpeg) |
+| ![Image 7](assets/search_by_favourites.jpeg) | ![Image 8](assets/add_recipe_1.jpeg) | ![Image 9](assets/app_recipe_2.jpeg) |
 |-------------------------------------|---------------------------------|--------------------------------|
 | **Category Filter Screen** - Filter recipes based on different categories such as Vegan, Dessert, etc. | **Recipe Item Screen** - A single recipe item showing ingredients, instructions, and the option to add to favorites. | **Settings Screen** - User preferences, including theme options and notification settings. |
