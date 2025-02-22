@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_login">
+
+    <fragment
+        android:id="@+id/fragment_login"
+        android:name="com.example.recipemanager.fragments.fragment_login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragment_login_to_fragment_register"
+            app:destination="@id/fragment_register" />
+        <action
+            android:id="@+id/action_fragment_login_to_fragment_app"
+            app:destination="@id/fragment_app" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_register"
+        android:name="com.example.recipemanager.fragments.fragment_register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_fragment_register_to_fragment_login"
+            app:destination="@id/fragment_login" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_app"
+        android:name="com.example.recipemanager.fragments.fragment_app"
+        android:label="fragment_app"
+        tools:layout="@layout/fragment_app" >
+        <action
+            android:id="@+id/action_fragment_app_to_fragment_recipe"
+            app:destination="@id/fragment_recipe" />
+        <action
+            android:id="@+id/action_fragment_app_to_fragment_add_recipe"
+            app:destination="@id/fragment_add_recipe" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_recipe"
+        android:name="com.example.recipemanager.fragments.fragment_recipe"
+        android:label="fragment_recipe" />
+    <fragment
+        android:id="@+id/fragment_add_recipe"
+        android:name="com.example.recipemanager.fragments.fragment_add_recipe"
+        android:label="fragment_add_recipe" />
+</navigation>

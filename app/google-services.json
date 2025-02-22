@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "177034731390",
+    "project_id": "recipemanager-4f284",
+    "storage_bucket": "recipemanager-4f284.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177034731390:android:3711a6fba1b45bd1745d2f",
+        "android_client_info": {
+          "package_name": "com.example.recipemanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQh1D9-rYdDXxO4M3zQ-cUuHkthxmGDzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
